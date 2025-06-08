@@ -37,7 +37,7 @@
 
     .cards .wide {
         width: 60vw;
-        height: 40vh;
+        height: 35vh;
         background-color: #ea777786;
 
         & img {
@@ -52,7 +52,7 @@
 
     .cards .small {
         width: 60vw;
-        height: 40vh;
+        height: 35vh;
         background-image: url(../images/icons/jogos.png);
         background-size: cover;
         background-position: center;
@@ -66,7 +66,7 @@
 
     .cards .big {
         width: 60vw;
-        height: 40vh;
+        height: 35vh;
         background-color: #5bb5f675;
 
         & img {
@@ -82,7 +82,7 @@
 
     .cards .big_2 {
         width: 60vw;
-        height: 40vh;
+        height: 35vh;
         background-color: #ebca5c7a;
 
         & img {
@@ -106,7 +106,7 @@
 
     .cards_acenis {
         width: 60vw;
-        height: 40vh;
+        height: 35vh;
         background-color: #69c39e8c;
 
         & img {

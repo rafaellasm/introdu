@@ -21,19 +21,19 @@
         }
 
         & p {
-            font-size: 3.5vw;
+            font-size: 4.4vw;
             font-weight: 700;
             color: #fff;
-            margin-top: 5vh;
+            margin-top: 3vh;
         }
 
         & .saiba_mais {
-            font-size: 4vw;
+            font-size: 5.4vw;
             margin-top: 7vh;
         }
 
         & img {
-            width: 10%;
+            width: 12%;
         }
     }
 }
