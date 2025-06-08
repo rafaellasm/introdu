@@ -1,0 +1,746 @@
+@media screen and (max-width: 471px) {
+    .container_porcentagem {
+        width: 100%;
+        margin-top: 20%;
+
+        & .titulo_acenis {
+            font-family: "Baloo Thambi", sans-serif;
+            font-size: 6.5vw;
+            text-align: center;
+        }
+
+        & .paragrafo_acenis {
+            font-size: 4.3vw;
+            padding: 0 8vw;
+            font-weight: 600;
+            text-align: center;
+            margin-top: 2%;
+        }
+
+        & hr {
+            background-color: #B3E0CD;
+            border: none;
+            border-radius: 100px;
+            margin: 0 auto;
+            margin-top: 2%;
+        }
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        margin-top: 20%;
+    }
+
+    .cards .wide {
+        width: 60vw;
+        height: 40vh;
+        background-color: #ea777786;
+
+        & img {
+            width: 60%;
+        }
+
+        & h2 {
+            font-size: 5vw;
+            font-family: "Baloo Thambi", sans-serif;
+        }
+    }
+
+    .cards .small {
+        width: 60vw;
+        height: 40vh;
+        background-image: url(../images/icons/jogos.png);
+        background-size: cover;
+        background-position: center;
+
+        & h2 {
+            margin-top: 35vw;
+            font-family: "Baloo Thambi", sans-serif;
+            font-size: 5vw;
+        }
+    }
+
+    .cards .big {
+        width: 60vw;
+        height: 40vh;
+        background-color: #5bb5f675;
+
+        & img {
+            width: 65%;
+        }
+
+        & h2 {
+            margin-top: 2vw;
+            font-family: "Baloo Thambi", sans-serif;
+            font-size: 4.5vw;
+        }
+    }
+
+    .cards .big_2 {
+        width: 60vw;
+        height: 40vh;
+        background-color: #ebca5c7a;
+
+        & img {
+            width: 65%;
+        }
+
+        & h2 {
+            font-family: "Baloo Thambi", sans-serif;
+            font-size: 5vw;
+        }
+    }
+
+    .cards div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 25px;
+        box-shadow: 3px 0px 0px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .cards_acenis {
+        width: 60vw;
+        height: 40vh;
+        background-color: #69c39e8c;
+
+        & img {
+            width: 70%;
+            margin-left: 18px;
+        }
+
+        & h2 {
+            font-family: "Baloo Thambi", sans-serif;
+            font-size: 5vw;
+        }
+    }
+}
+
+@media screen and (max-width: 480px) and (min-width: 472px) {
+    .container_porcentagem {
+        width: 100%;
+        margin-top: 20%;
+
+        & .titulo_acenis {
+            font-family: "Baloo Thambi", sans-serif;
+            font-size: 6.4vw;
+            text-align: center;
+        }
+
+        & .paragrafo_acenis {
+            font-size: 4vw;
+            padding: 0 8vw;
+            font-weight: 600;
+            text-align: center;
+            margin-top: 2%;
+        }
+
+        & hr {
+            background-color: #B3E0CD;
+            border: none;
+            border-radius: 100px;
+            margin: 0 auto;
+            margin-top: 2%;
+        }
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        margin-top: 20%;
+    }
+
+    .cards .wide {
+        width: 50vw;
+        height: 40vh;
+        background-color: #ea777786;
+
+        & img {
+            width: 60%;
+        }
+
+        & h2 {
+            font-size: 20px;
+            font-family: "Baloo Thambi", sans-serif;
+        }
+    }
+
+    .cards .small {
+        width: 50vw;
+        height: 40vh;
+        background-image: url(../images/icons/jogos.png);
+        background-size: cover;
+        background-position: center;
+
+        & h2 {
+            margin-top: 35vw;
+            font-family: "Baloo Thambi", sans-serif;
+            font-size: 20px;
+        }
+    }
+
+    .cards .big {
+        width: 50vw;
+        height: 40vh;
+        background-color: #5bb5f675;
+
+        & img {
+            width: 65%;
+        }
+
+        & h2 {
+            margin-top: 2vw;
+            font-family: "Baloo Thambi", sans-serif;
+            font-size: 18px;
+        }
+    }
+
+    .cards .big_2 {
+        width: 50vw;
+        height: 40vh;
+        background-color: #ebca5c7a;
+
+        & img {
+            width: 65%;
+        }
+
+        & h2 {
+            font-family: "Baloo Thambi", sans-serif;
+            font-size: 20px;
+        }
+    }
+
+    .cards div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 25px;
+        box-shadow: 3px 0px 0px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .cards_acenis {
+        width: 50vw;
+        height: 40vh;
+        background-color: #69c39e8c;
+
+        & img {
+            width: 70%;
+            margin-left: 18px;
+        }
+
+        & h2 {
+            font-family: "Baloo Thambi", sans-serif;
+            font-size: 20px;
+        }
+    }
+}
+
+@media screen and (min-width: 485px) and (max-width: 667px) {
+    .container_porcentagem {
+        width: 100%;
+        margin-top: 20%;
+
+        & .titulo_acenis {
+            font-family: "Baloo Thambi", sans-serif;
+            font-size: 6.4vw;
+            text-align: center;
+        }
+
+        & .paragrafo_acenis {
+            font-size: 4vw;
+            padding: 0 8vw;
+            font-weight: 600;
+            text-align: center;
+            margin-top: 2%;
+        }
+
+        & hr {
+            background-color: #B3E0CD;
+            border: none;
+            border-radius: 100px;
+            margin: 0 auto;
+            margin-top: 2%;
+        }
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        margin-top: 20%;
+    }
+
+    .cards .wide {
+        width: 50vw;
+        height: 50vh;
+        background-color: #ea777786;
+
+        & img {
+            width: 60%;
+        }
+
+        & h2 {
+            font-size: 20px;
+            font-family: "Baloo Thambi", sans-serif;
+        }
+    }
+
+    .cards .small {
+        width: 50vw;
+        height: 50vh;
+        background-image: url(../images/icons/jogos.png);
+        background-size: cover;
+        background-position: center;
+
+        & h2 {
+            margin-top: 33vw;
+            font-family: "Baloo Thambi", sans-serif;
+            font-size: 20px;
+        }
+    }
+
+    .cards .big {
+        width: 50vw;
+        height: 50vh;
+        background-color: #5bb5f675;
+
+        & img {
+            width: 65%;
+        }
+
+        & h2 {
+            margin-top: 2vw;
+            font-family: "Baloo Thambi", sans-serif;
+            font-size: 18px;
+        }
+    }
+
+    .cards .big_2 {
+        width: 50vw;
+        height: 50vh;
+        background-color: #ebca5c7a;
+
+        & img {
+            width: 65%;
+        }
+
+        & h2 {
+            font-family: "Baloo Thambi", sans-serif;
+            font-size: 20px;
+        }
+    }
+
+    .cards div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 25px;
+        box-shadow: 3px 0px 0px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .cards_acenis {
+        width: 50vw;
+        height: 50vh;
+        background-color: #69c39e8c;
+
+        & img {
+            width: 65%;
+            margin-left: 18px;
+        }
+
+        & h2 {
+            font-family: "Baloo Thambi", sans-serif;
+            font-size: 20px;
+        }
+    }
+
+}
+
+@media screen and (min-width: 668px) and (max-width: 1023px) {
+    .container_porcentagem {
+        width: 100%;
+        margin-top: 20%;
+
+        & .titulo_acenis {
+            font-family: "Baloo Thambi", sans-serif;
+            font-size: 6.4vw;
+            text-align: center;
+        }
+
+        & .paragrafo_acenis {
+            font-size: 4vw;
+            padding: 0 8vw;
+            font-weight: 600;
+            text-align: center;
+            margin-top: 2%;
+        }
+
+        & hr {
+            background-color: #B3E0CD;
+            border: none;
+            border-radius: 100px;
+            margin: 0 auto;
+            margin-top: 2%;
+        }
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 70px;
+        margin-top: 20%;
+    }
+
+    .cards .wide {
+        width: 40vw;
+        height: 50vh;
+        background-color: #ea777786;
+
+        & img {
+            width: 55%;
+        }
+
+        & h2 {
+            font-size: 22px;
+            font-family: "Baloo Thambi", sans-serif;
+        }
+    }
+
+    .cards .small {
+        width: 40vw;
+        height: 50vh;
+        background-image: url(../images/icons/jogos.png);
+        background-size: cover;
+        background-position: center;
+
+        & h2 {
+            margin-top: 22vw;
+            font-family: "Baloo Thambi", sans-serif;
+            font-size: 22px;
+        }
+    }
+
+    .cards .big {
+        width: 40vw;
+        height: 50vh;
+        background-color: #5bb5f675;
+
+        & img {
+            width: 57%;
+        }
+
+        & h2 {
+            margin-top: 2vw;
+            font-family: "Baloo Thambi", sans-serif;
+            font-size: 22px;
+        }
+    }
+
+    .cards .big_2 {
+        width: 40vw;
+        height: 50vh;
+        background-color: #ebca5c7a;
+
+        & img {
+            width: 57%;
+        }
+
+        & h2 {
+            font-family: "Baloo Thambi", sans-serif;
+            font-size: 22px;
+        }
+    }
+
+    .cards div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 25px;
+        box-shadow: 3px 0px 0px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .cards_acenis {
+        width: 40vw;
+        height: 50vh;
+        background-color: #69c39e8c;
+
+        & img {
+            width: 56%;
+            margin-left: 18px;
+        }
+
+        & h2 {
+            font-family: "Baloo Thambi", sans-serif;
+            font-size: 22px;
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container_porcentagem {
+        width: 100%;
+        gap: 25px;
+        margin-top: 20%;
+
+        & .titulo_acenis {
+            font-family: "Baloo Thambi", sans-serif;
+            font-size: 5vw;
+            text-align: center;
+        }
+
+        & .paragrafo_acenis {
+            font-size: 3vw;
+            padding: 0 8vw;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        & hr {
+            width: 300px;
+            height: 5px;
+            background-color: #B3E0CD;
+            border: none;
+            border-radius: 100px;
+            margin: 0 auto;
+            margin-top: 2%;
+        }
+    }
+
+    .cards {
+        display: grid;
+        grid-gap: 40px;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-auto-rows: 200px;
+        grid-auto-flow: dense;
+        padding: 60px;
+        margin-top: 6%;
+    }
+
+    .cards .wide {
+        grid-column: span 2;
+        height: 42.5vh;
+        background-color: #ea777786;
+
+        & img {
+            width: 35%;
+        }
+
+        & h2 {
+            font-family: "Baloo Thambi", sans-serif;
+        }
+    }
+
+    .cards .small {
+        grid-row: span 2;
+        height: 100vh;
+        background-image: url(../images/icons/jogos.png);
+        background-size: cover;
+
+        & h2 {
+            margin-top: 35vw;
+            font-family: "Baloo Thambi", sans-serif;
+            font-size: 30px;
+        }
+    }
+
+    .cards .big {
+        grid-column: span 1;
+        grid-row: span 1;
+        height: 50vh;
+        width: 30vw;
+        margin-top: 30%;
+        background-color: #5bb5f675;
+
+        & img {
+            width: 55%;
+        }
+
+        & h2 {
+            margin-top: 2vw;
+            font-family: "Baloo Thambi", sans-serif;
+        }
+    }
+
+    .cards .big_2 {
+        grid-column: span 1;
+        grid-row: span 1;
+        height: 50vh;
+        width: 30vw;
+        margin-top: 30%;
+        margin-left: 55%;
+        background-color: #ebca5c7a;
+
+        & h2 {
+            font-family: "Baloo Thambi", sans-serif;
+        }
+    }
+
+    .cards div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 25px;
+        box-shadow: 3px 0px 0px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .cards_acenis {
+        height: 42vh;
+        background-color: #69c39e8c;
+
+        & img {
+            width: 70%;
+            margin-left: 18px;
+        }
+
+        & h2 {
+            font-family: "Baloo Thambi", sans-serif;
+        }
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .container_porcentagem {
+        width: 100%;
+        gap: 25px;
+        margin-top: 20%;
+
+        & .titulo_acenis {
+            font-family: "Baloo Thambi", sans-serif;
+            font-size: 5vw;
+            text-align: center;
+        }
+
+        & .paragrafo_acenis {
+            font-size: 3vw;
+            padding: 0 8vw;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        & hr {
+            width: 300px;
+            height: 5px;
+            background-color: #B3E0CD;
+            border: none;
+            border-radius: 100px;
+            margin: 0 auto;
+            margin-top: 2%;
+        }
+    }
+
+    .cards {
+        display: grid;
+        grid-gap: 40px;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        grid-auto-rows: 200px;
+        grid-auto-flow: dense;
+        padding: 60px;
+        margin-top: 6%;
+    }
+
+    .cards .wide {
+        grid-column: span 2;
+        height: 42.5vh;
+        background-color: #ea777786;
+
+        & img {
+            width: 36%;
+        }
+
+        & h2 {
+            font-size: 2.3vw;
+            font-family: "Baloo Thambi", sans-serif;
+        }
+    }
+
+    .cards .small {
+        grid-row: span 2;
+        height: 100vh;
+        background-image: url(../images/icons/jogos.png);
+        background-size: cover;
+
+        & h2 {
+            margin-top: 35vw;
+            font-family: "Baloo Thambi", sans-serif;
+            font-size: 2.3vw;
+        }
+    }
+
+    .cards .big {
+        grid-column: span 1;
+        grid-row: span 1;
+        height: 50vh;
+        width: 30vw;
+        margin-top: 60%;
+        background-color: #5bb5f675;
+
+        & img {
+            width: 65%;
+        }
+
+        & h2 {
+            margin-top: 2vw;
+            font-family: "Baloo Thambi", sans-serif;
+            font-size: 2.2vw;
+        }
+    }
+
+    .cards .big_2 {
+        grid-column: span 1;
+        grid-row: span 1;
+        height: 50vh;
+        width: 30vw;
+        margin-top: 60%;
+        margin-left: 55%;
+        background-color: #ebca5c7a;
+
+        & img {
+            width: 65%;
+        }
+
+        & h2 {
+            font-family: "Baloo Thambi", sans-serif;
+            font-size: 2.3vw;
+        }
+    }
+
+    .cards div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 25px;
+        box-shadow: 3px 0px 0px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .cards_acenis {
+        height: 42vh;
+        background-color: #69c39e8c;
+
+        & img {
+            width: 70%;
+            margin-left: 18px;
+        }
+
+        & h2 {
+            font-family: "Baloo Thambi", sans-serif;
+            font-size: 2.3vw;
+        }
+    }
+}

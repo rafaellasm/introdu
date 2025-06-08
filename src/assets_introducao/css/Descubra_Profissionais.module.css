@@ -1,0 +1,602 @@
+@media screen and (max-width: 480px) {
+    .profissionais {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        margin-top: 90%;
+
+        & h2 {
+            font-size: 7vw;
+            text-align: center;
+            font-family: "Baloo Thambi", sans-serif;
+        }
+
+        & p {
+            text-align: center;
+            font-size: 4vw;
+            margin-top: 5vh;
+        }
+
+        & .container_oferecemos {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            & .card_verificacao {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 8vw;
+                padding: 2vw;
+
+                & p {
+                    font-size: 3.8vw;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                }
+
+                & img {
+                    width: 10%;
+                }
+            }
+        }
+
+        .feedbeck {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20%;
+
+            & .comentarios {
+                position: relative;
+                width: 85%;
+                height: 45vh;
+                background-color: #F2F2F2;
+                box-shadow: 2px 0px 0px 5px rgba(0, 0, 0, 0.2);
+                border-radius: 20px;
+                margin-top: 10%;
+                padding: 2vw;
+
+                & .usuario {
+                    display: flex;
+                    margin-top: 3vh;
+
+                    & img {
+                        width: 14%;
+                    }
+
+                    & .detalhe_usuarios {
+                        margin-left: 2vw;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+
+        & button {
+            width: 35%;
+            height: 8vh;
+            border: none;
+            border-radius: 10px;
+            background-color: #F2A4A4;
+            color: #fff;
+            font-size: 5vw;
+            font-family: "Baloo Thambi", sans-serif;
+            margin-top: 5%;
+        }
+    }
+
+    .flor_profissionais{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 485px) and (max-width: 667px) {
+    .profissionais {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        margin-top: 100%;
+
+        & h2 {
+            font-size: 7vw;
+            text-align: center;
+            font-family: "Baloo Thambi", sans-serif;
+        }
+
+        & p {
+            text-align: center;
+            font-size: 4vw;
+            margin-top: 5vh;
+
+        }
+
+        & .container_oferecemos {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            & .card_verificacao {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 8vw;
+                padding: 2vw;
+
+                & p {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    font-size: 3.8vw;
+                }
+
+                & img {
+                    width: 10%;
+                }
+            }
+        }
+
+        .feedbeck {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20%;
+
+            & .comentarios {
+                position: relative;
+                width: 85%;
+                height: 60vh;
+                background-color: #F2F2F2;
+                box-shadow: 2px 0px 0px 5px rgba(0, 0, 0, 0.2);
+                border-radius: 20px;
+                margin-top: 10%;
+                padding: 2.5vw;
+
+                & .usuario {
+                    display: flex;
+                    margin-top: 3vh;
+
+                    & img {
+                        width: 14%;
+                    }
+
+                    & .detalhe_usuarios {
+                        margin-left: 2vw;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+
+                        & h3 {
+                            font-size: 3.2vw;
+                        }
+
+                        & h6 {
+                            font-size: 2.6vw;
+                        }
+                    }
+                }
+            }
+        }
+
+        & button {
+            width: 35%;
+            height: 10vh;
+            border: none;
+            border-radius: 10px;
+            background-color: #F2A4A4;
+            color: #fff;
+            font-size: 5vw;
+            font-family: "Baloo Thambi", sans-serif;
+            margin-top: 5%;
+        }
+    }
+
+     .flor_profissionais{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 668px) and (max-width: 1023px) {
+    .profissionais {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        margin-top: 115vw;
+
+        & h2 {
+            font-size: 6.5vw;
+            text-align: center;
+            font-family: "Baloo Thambi", sans-serif;
+        }
+
+        & p {
+            text-align: center;
+            font-size: 4vw;
+            margin-top: 7vw;
+        }
+
+        & .container_oferecemos {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            & .card_verificacao {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 8vw;
+                padding: 2vw;
+
+                & p {
+                    padding: 5vw;
+                    font-size: 4vw;
+                }
+
+                & img {
+                    width: 15%;
+                }
+            }
+        }
+
+        .feedbeck {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20%;
+
+            & .comentarios {
+                position: relative;
+                width: 85%;
+                height: 100vh;
+                background-color: #F2F2F2;
+                box-shadow: 2px 0px 0px 5px rgba(0, 0, 0, 0.2);
+                border-radius: 20px;
+                margin-top: 10%;
+                padding: 2.5vw;
+
+                & .usuario {
+                    display: flex;
+                    margin-top: 3vh;
+
+                    & img {
+                        width: 14%;
+                    }
+
+                    & .detalhe_usuarios {
+                        margin-left: 2vw;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+
+                        & h3 {
+                            font-size: 3.8vw;
+                        }
+
+                        & h6 {
+                            font-size: 2.6vw;
+                        }
+                    }
+                }
+            }
+        }
+
+        & button {
+            width: 35%;
+            height: 15vh;
+            border: none;
+            border-radius: 10px;
+            background-color: #F2A4A4;
+            color: #fff;
+            font-size: 5vw;
+            font-family: "Baloo Thambi", sans-serif;
+            margin-top: 5%;
+        }
+    }
+
+     .flor_profissionais{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .profissionais {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        margin-top: 35vw;
+        padding: 5%;
+
+        & h2 {
+            font-size: 3vw;
+            text-align: center;
+            font-family: "Baloo Thambi", sans-serif;
+        }
+
+        & p {
+            text-align: center;
+            font-size: 2vw;
+            margin-top: 4vw;
+        }
+
+        & .container {
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+        }
+
+        & .container_oferecemos {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 4%;
+        }
+
+        & .card_verificacao {
+            position: relative;
+            display: flex;
+            width: 70%;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            margin-top: 10%;
+
+            & p {
+                font-size: 1.8vw;
+                margin-left: 0.2vw;
+            }
+
+            & img {
+                width: 12%;
+                height: 10vh;
+            }
+        }
+
+        & .feedbeck {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            & h2 {
+                font-size: 2.8vw;
+            }
+
+
+            & .comentarios {
+                position: relative;
+                width: 100%;
+                height: auto;
+                background-color: #FFFFFF;
+                box-shadow: 2px 0px 0px 5px rgba(0, 0, 0, 0.2);
+                border-radius: 20px;
+                margin-top: 10%;
+                padding: 2.5vw;
+
+                & p {
+                    font-size: 1.5vw;
+                }
+
+                & .usuario {
+                    display: flex;
+                    margin-top: 3vh;
+
+                    & img {
+                        width: 12%;
+                    }
+
+                    & .detalhe_usuarios {
+                        margin-left: 2vw;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+
+                        & h3 {
+                            font-size: 1.5vw;
+                        }
+
+                        & h6 {
+                            font-size: 1.2vw;
+                        }
+                    }
+                }
+            }
+        }
+
+        & button {
+            width: 35%;
+            height: 10vh;
+            border: none;
+            border-radius: 10px;
+            background-color: #F2A4A4;
+            color: #fff;
+            font-size: 2.5vw;
+            font-family: "Baloo Thambi", sans-serif;
+            margin-top: 10%;
+            cursor: pointer;
+
+        }
+
+    }
+
+    .flor_profissionais {
+        position: absolute;
+        width: 25%;
+        top: 82%;
+        left: 75%;
+    }
+
+}
+
+@media screen and (min-width: 1920px) {
+    .profissionais {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        margin-top: 55vw;
+        padding: 5%;
+
+        & h2 {
+            font-size: 3vw;
+            text-align: center;
+            font-family: "Baloo Thambi", sans-serif;
+        }
+
+        & p {
+            text-align: center;
+            font-size: 2vw;
+            margin-top: 4vw;
+        }
+
+        & .container {
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+        }
+
+        & .container_oferecemos {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 4%;
+        }
+
+        & .card_verificacao {
+            position: relative;
+            display: flex;
+            width: 70%;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            margin-top: 10%;
+
+            & p {
+                font-size: 1.8vw;
+                margin-left: 0.2vw;
+            }
+
+            & img {
+                width: 15%;
+                height: 10vh;
+            }
+        }
+
+        & .feedbeck {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            & h2 {
+                font-size: 2.8vw;
+            }
+
+
+            & .comentarios {
+                position: relative;
+                width: 100%;
+                height: auto;
+                background-color: #FFFFFF;
+                box-shadow: 2px 0px 0px 5px rgba(0, 0, 0, 0.2);
+                border-radius: 20px;
+                margin-top: 10%;
+                padding: 2.5vw;
+
+                & p {
+                    font-size: 1.5vw;
+                }
+
+                & .usuario {
+                    display: flex;
+                    margin-top: 3vh;
+
+                    & img {
+                        width: 12%;
+                    }
+
+                    & .detalhe_usuarios {
+                        margin-left: 2vw;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+
+                        & h3 {
+                            font-size: 1.5vw;
+                        }
+
+                        & h6 {
+                            font-size: 1.2vw;
+                        }
+                    }
+                }
+            }
+        }
+
+        & button {
+            width: 35%;
+            height: 10vh;
+            border: none;
+            border-radius: 10px;
+            background-color: #F2A4A4;
+            color: #fff;
+            font-size: 2.5vw;
+            font-family: "Baloo Thambi", sans-serif;
+            margin-top: 10%;
+            cursor: pointer;
+
+        }
+
+    }
+
+    .flor_profissionais {
+        position: absolute;
+        width: 25%;
+        top: 76%;
+        left: 75%;
+    }
+
+}
